@@ -1,0 +1,10 @@
+dataset          images   masks  empty  dimensions
+------------------------------------------------------------------------
+tn3k trainval      2879    2879      0  h 174-826   w 184-1463
+tn3k test           614     614      0  h 261-772   w 255-1399
+tg3k               3585    3585      0  h 174-238   w 214-325
+ddti                  -       -      -  NOT FOUND
+
+empty mask = no pixel above 127. Zero empties means the Dice 0/0 case
+never arises on these datasets; the convention must still be fixed for
+the patient data, and is tested synthetically in check 07.

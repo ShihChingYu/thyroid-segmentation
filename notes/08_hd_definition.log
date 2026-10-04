@@ -1,0 +1,16 @@
+
+fold 0, 614 cases at 224x224  (8 with an empty prediction)
+
+  ours (boundary pixels)    mean= 24.744  median= 13.303
+  repo (all foreground)     mean= 18.116  median=  6.708
+  ratio ours/repo           1.366
+  repo <= ours in           98.8% of cases
+
+  eval.py reported 19.54 for fold 0 at whatever grid it used.
+
+  worst 5 by our HD95:
+    0354   ours=  147.84   repo=  144.28
+    0136   ours=  146.99   repo=  145.34
+    0245   ours=  145.79   repo=  141.75
+    0005   ours=  139.23   repo=  140.72
+    0352   ours=  135.30   repo=  131.32

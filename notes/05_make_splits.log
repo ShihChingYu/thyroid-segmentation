@@ -1,0 +1,4 @@
+wrote /workspace/amy/splits/v1.json
+  tn3k  trainval=2879 test=614 folds=5
+  tg3k  train=3026 val=559 groups=15
+  ddti  test=0  path=None

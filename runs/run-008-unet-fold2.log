@@ -1,0 +1,349 @@
+Training unet from scratch...
+nitrs: 0 num_iter_tr: 143
+nsamples: 0 tot_num_samples: 2303
+epoch: 0 ii: 49 trainloss: 0.79 timecost:12.30 secs
+epoch: 0 ii: 99 trainloss: 0.77 timecost:20.63 secs
+epoch: 0 meanloss: 0.77
+Validation:
+epoch: 0, numImages: 576 testloss: 0.77 mmae: 0.6708 fbeta: 0.0154 iou: 0.1463
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 1 ii: 6 trainloss: 0.75 timecost:52.06 secs
+epoch: 1 ii: 56 trainloss: 0.77 timecost:61.00 secs
+epoch: 1 ii: 106 trainloss: 0.74 timecost:69.40 secs
+epoch: 1 meanloss: 0.75
+Validation:
+epoch: 1, numImages: 576 testloss: 0.74 mmae: 0.3900 fbeta: 0.4849 iou: 0.1718
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 2 ii: 13 trainloss: 0.72 timecost:97.77 secs
+epoch: 2 ii: 63 trainloss: 0.69 timecost:106.13 secs
+epoch: 2 ii: 113 trainloss: 0.65 timecost:114.34 secs
+epoch: 2 meanloss: 0.65
+Validation:
+epoch: 2, numImages: 576 testloss: 0.68 mmae: 0.3935 fbeta: 0.5733 iou: 0.2250
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 3 ii: 20 trainloss: 0.56 timecost:145.80 secs
+epoch: 3 ii: 70 trainloss: 0.50 timecost:154.88 secs
+epoch: 3 ii: 120 trainloss: 0.51 timecost:163.03 secs
+epoch: 3 meanloss: 0.51
+Validation:
+epoch: 3, numImages: 576 testloss: 0.53 mmae: 0.1111 fbeta: 0.5148 iou: 0.3515
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 4 ii: 27 trainloss: 0.48 timecost:196.77 secs
+epoch: 4 ii: 77 trainloss: 0.49 timecost:205.02 secs
+epoch: 4 ii: 127 trainloss: 0.46 timecost:213.18 secs
+epoch: 4 meanloss: 0.47
+Validation:
+epoch: 4, numImages: 576 testloss: 0.46 mmae: 0.0952 fbeta: 0.5661 iou: 0.4147
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 5 ii: 34 trainloss: 0.44 timecost:246.63 secs
+epoch: 5 ii: 84 trainloss: 0.45 timecost:254.85 secs
+epoch: 5 ii: 134 trainloss: 0.43 timecost:262.90 secs
+epoch: 5 meanloss: 0.44
+Validation:
+epoch: 5, numImages: 576 testloss: 0.44 mmae: 0.0815 fbeta: 0.6102 iou: 0.4256
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 6 ii: 41 trainloss: 0.42 timecost:294.26 secs
+epoch: 6 ii: 91 trainloss: 0.39 timecost:302.62 secs
+epoch: 6 ii: 141 trainloss: 0.40 timecost:310.67 secs
+epoch: 6 meanloss: 0.40
+Validation:
+epoch: 6, numImages: 576 testloss: 0.40 mmae: 0.0747 fbeta: 0.6568 iou: 0.4665
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 7 ii: 48 trainloss: 0.38 timecost:343.20 secs
+epoch: 7 ii: 98 trainloss: 0.38 timecost:352.33 secs
+epoch: 7 meanloss: 0.38
+Validation:
+epoch: 7, numImages: 576 testloss: 0.39 mmae: 0.0758 fbeta: 0.6455 iou: 0.4815
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 8 ii: 5 trainloss: 0.37 timecost:381.72 secs
+epoch: 8 ii: 55 trainloss: 0.37 timecost:390.03 secs
+epoch: 8 ii: 105 trainloss: 0.38 timecost:398.10 secs
+epoch: 8 meanloss: 0.37
+Validation:
+epoch: 8, numImages: 576 testloss: 0.43 mmae: 0.0855 fbeta: 0.6066 iou: 0.4391
+epoch: 9 ii: 12 trainloss: 0.35 timecost:426.84 secs
+epoch: 9 ii: 62 trainloss: 0.35 timecost:435.48 secs
+epoch: 9 ii: 112 trainloss: 0.35 timecost:444.44 secs
+epoch: 9 meanloss: 0.35
+Validation:
+epoch: 9, numImages: 576 testloss: 0.37 mmae: 0.0674 fbeta: 0.6780 iou: 0.4975
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+(poly lr policy) learning rate:  0.008364355197985339
+epoch: 10 ii: 19 trainloss: 0.33 timecost:475.21 secs
+epoch: 10 ii: 69 trainloss: 0.33 timecost:483.71 secs
+epoch: 10 ii: 119 trainloss: 0.32 timecost:492.59 secs
+epoch: 10 meanloss: 0.32
+Validation:
+epoch: 10, numImages: 576 testloss: 0.37 mmae: 0.0678 fbeta: 0.6940 iou: 0.5047
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 11 ii: 26 trainloss: 0.31 timecost:522.25 secs
+epoch: 11 ii: 76 trainloss: 0.32 timecost:530.58 secs
+epoch: 11 ii: 126 trainloss: 0.32 timecost:539.80 secs
+epoch: 11 meanloss: 0.32
+Validation:
+epoch: 11, numImages: 576 testloss: 0.33 mmae: 0.0616 fbeta: 0.6882 iou: 0.5437
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 12 ii: 33 trainloss: 0.29 timecost:572.95 secs
+epoch: 12 ii: 83 trainloss: 0.31 timecost:581.85 secs
+epoch: 12 ii: 133 trainloss: 0.32 timecost:591.98 secs
+epoch: 12 meanloss: 0.31
+Validation:
+epoch: 12, numImages: 576 testloss: 0.32 mmae: 0.0576 fbeta: 0.7195 iou: 0.5590
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 13 ii: 40 trainloss: 0.29 timecost:623.35 secs
+epoch: 13 ii: 90 trainloss: 0.29 timecost:631.85 secs
+epoch: 13 ii: 140 trainloss: 0.29 timecost:640.26 secs
+epoch: 13 meanloss: 0.29
+Validation:
+epoch: 13, numImages: 576 testloss: 0.34 mmae: 0.0650 fbeta: 0.6782 iou: 0.5313
+epoch: 14 ii: 47 trainloss: 0.29 timecost:669.93 secs
+epoch: 14 ii: 97 trainloss: 0.29 timecost:678.87 secs
+epoch: 14 meanloss: 0.29
+Validation:
+epoch: 14, numImages: 576 testloss: 0.36 mmae: 0.0720 fbeta: 0.6254 iou: 0.5113
+epoch: 15 ii: 4 trainloss: 0.28 timecost:707.61 secs
+epoch: 15 ii: 54 trainloss: 0.27 timecost:715.86 secs
+epoch: 15 ii: 104 trainloss: 0.27 timecost:724.13 secs
+epoch: 15 meanloss: 0.28
+Validation:
+epoch: 15, numImages: 576 testloss: 0.31 mmae: 0.0560 fbeta: 0.7334 iou: 0.5661
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 16 ii: 11 trainloss: 0.29 timecost:751.07 secs
+epoch: 16 ii: 61 trainloss: 0.25 timecost:759.43 secs
+epoch: 16 ii: 111 trainloss: 0.28 timecost:767.81 secs
+epoch: 16 meanloss: 0.28
+Validation:
+epoch: 16, numImages: 576 testloss: 0.33 mmae: 0.0615 fbeta: 0.7175 iou: 0.5430
+epoch: 17 ii: 18 trainloss: 0.27 timecost:797.61 secs
+epoch: 17 ii: 68 trainloss: 0.27 timecost:805.92 secs
+epoch: 17 ii: 118 trainloss: 0.25 timecost:814.78 secs
+epoch: 17 meanloss: 0.26
+Validation:
+epoch: 17, numImages: 576 testloss: 0.32 mmae: 0.0560 fbeta: 0.7373 iou: 0.5591
+epoch: 18 ii: 25 trainloss: 0.26 timecost:844.63 secs
+epoch: 18 ii: 75 trainloss: 0.26 timecost:852.94 secs
+epoch: 18 ii: 125 trainloss: 0.26 timecost:861.30 secs
+epoch: 18 meanloss: 0.26
+Validation:
+epoch: 18, numImages: 576 testloss: 0.30 mmae: 0.0525 fbeta: 0.7470 iou: 0.5836
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 19 ii: 32 trainloss: 0.24 timecost:889.85 secs
+epoch: 19 ii: 82 trainloss: 0.24 timecost:897.77 secs
+epoch: 19 ii: 132 trainloss: 0.25 timecost:905.65 secs
+epoch: 19 meanloss: 0.24
+Validation:
+epoch: 19, numImages: 576 testloss: 0.31 mmae: 0.0552 fbeta: 0.6988 iou: 0.5701
+(poly lr policy) learning rate:  0.0065035805048774195
+epoch: 20 ii: 39 trainloss: 0.23 timecost:932.39 secs
+epoch: 20 ii: 89 trainloss: 0.23 timecost:941.74 secs
+epoch: 20 ii: 139 trainloss: 0.24 timecost:949.90 secs
+epoch: 20 meanloss: 0.23
+Validation:
+epoch: 20, numImages: 576 testloss: 0.31 mmae: 0.0564 fbeta: 0.6897 iou: 0.5729
+epoch: 21 ii: 46 trainloss: 0.24 timecost:976.47 secs
+epoch: 21 ii: 96 trainloss: 0.23 timecost:984.81 secs
+epoch: 21 meanloss: 0.23
+Validation:
+epoch: 21, numImages: 576 testloss: 0.30 mmae: 0.0512 fbeta: 0.7621 iou: 0.5843
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 22 ii: 3 trainloss: 0.22 timecost:1012.71 secs
+epoch: 22 ii: 53 trainloss: 0.22 timecost:1020.59 secs
+epoch: 22 ii: 103 trainloss: 0.23 timecost:1028.67 secs
+epoch: 22 meanloss: 0.22
+Validation:
+epoch: 22, numImages: 576 testloss: 0.28 mmae: 0.0504 fbeta: 0.7344 iou: 0.5985
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 23 ii: 10 trainloss: 0.22 timecost:1056.18 secs
+epoch: 23 ii: 60 trainloss: 0.22 timecost:1064.34 secs
+epoch: 23 ii: 110 trainloss: 0.23 timecost:1072.32 secs
+epoch: 23 meanloss: 0.22
+Validation:
+epoch: 23, numImages: 576 testloss: 0.28 mmae: 0.0497 fbeta: 0.7491 iou: 0.6038
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 24 ii: 17 trainloss: 0.21 timecost:1100.33 secs
+epoch: 24 ii: 67 trainloss: 0.21 timecost:1108.66 secs
+epoch: 24 ii: 117 trainloss: 0.22 timecost:1116.55 secs
+epoch: 24 meanloss: 0.21
+Validation:
+epoch: 24, numImages: 576 testloss: 0.33 mmae: 0.0550 fbeta: 0.7661 iou: 0.5558
+epoch: 25 ii: 24 trainloss: 0.21 timecost:1145.52 secs
+epoch: 25 ii: 74 trainloss: 0.21 timecost:1153.74 secs
+epoch: 25 ii: 124 trainloss: 0.22 timecost:1161.77 secs
+epoch: 25 meanloss: 0.21
+Validation:
+epoch: 25, numImages: 576 testloss: 0.28 mmae: 0.0490 fbeta: 0.7689 iou: 0.5982
+epoch: 26 ii: 31 trainloss: 0.20 timecost:1188.51 secs
+epoch: 26 ii: 81 trainloss: 0.21 timecost:1197.23 secs
+epoch: 26 ii: 131 trainloss: 0.20 timecost:1205.28 secs
+epoch: 26 meanloss: 0.21
+Validation:
+epoch: 26, numImages: 576 testloss: 0.33 mmae: 0.0535 fbeta: 0.7748 iou: 0.5557
+epoch: 27 ii: 38 trainloss: 0.19 timecost:1232.47 secs
+epoch: 27 ii: 88 trainloss: 0.20 timecost:1240.84 secs
+epoch: 27 ii: 138 trainloss: 0.21 timecost:1249.64 secs
+epoch: 27 meanloss: 0.20
+Validation:
+epoch: 27, numImages: 576 testloss: 0.35 mmae: 0.0611 fbeta: 0.7626 iou: 0.5292
+epoch: 28 ii: 45 trainloss: 0.21 timecost:1278.84 secs
+epoch: 28 ii: 95 trainloss: 0.20 timecost:1286.87 secs
+epoch: 28 meanloss: 0.20
+Validation:
+epoch: 28, numImages: 576 testloss: 0.32 mmae: 0.0537 fbeta: 0.7730 iou: 0.5658
+epoch: 29 ii: 2 trainloss: 0.21 timecost:1314.77 secs
+epoch: 29 ii: 52 trainloss: 0.20 timecost:1322.68 secs
+epoch: 29 ii: 102 trainloss: 0.21 timecost:1330.48 secs
+epoch: 29 meanloss: 0.20
+Validation:
+epoch: 29, numImages: 576 testloss: 0.29 mmae: 0.0499 fbeta: 0.7742 iou: 0.5912
+(poly lr policy) learning rate:  0.0045806210165153325
+epoch: 30 ii: 9 trainloss: 0.19 timecost:1358.24 secs
+epoch: 30 ii: 59 trainloss: 0.19 timecost:1366.50 secs
+epoch: 30 ii: 109 trainloss: 0.18 timecost:1374.72 secs
+epoch: 30 meanloss: 0.18
+Validation:
+epoch: 30, numImages: 576 testloss: 0.29 mmae: 0.0487 fbeta: 0.7823 iou: 0.5962
+epoch: 31 ii: 16 trainloss: 0.18 timecost:1404.21 secs
+epoch: 31 ii: 66 trainloss: 0.17 timecost:1412.31 secs
+epoch: 31 ii: 116 trainloss: 0.19 timecost:1420.67 secs
+epoch: 31 meanloss: 0.18
+Validation:
+epoch: 31, numImages: 576 testloss: 0.27 mmae: 0.0489 fbeta: 0.7366 iou: 0.6091
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 32 ii: 23 trainloss: 0.18 timecost:1449.27 secs
+epoch: 32 ii: 73 trainloss: 0.17 timecost:1457.47 secs
+epoch: 32 ii: 123 trainloss: 0.17 timecost:1465.42 secs
+epoch: 32 meanloss: 0.17
+Validation:
+epoch: 32, numImages: 576 testloss: 0.28 mmae: 0.0473 fbeta: 0.7811 iou: 0.6074
+epoch: 33 ii: 30 trainloss: 0.17 timecost:1492.31 secs
+epoch: 33 ii: 80 trainloss: 0.17 timecost:1500.63 secs
+epoch: 33 ii: 130 trainloss: 0.19 timecost:1508.65 secs
+epoch: 33 meanloss: 0.18
+Validation:
+epoch: 33, numImages: 576 testloss: 0.27 mmae: 0.0472 fbeta: 0.7618 iou: 0.6148
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 34 ii: 37 trainloss: 0.17 timecost:1534.84 secs
+epoch: 34 ii: 87 trainloss: 0.16 timecost:1542.88 secs
+epoch: 34 ii: 137 trainloss: 0.18 timecost:1551.05 secs
+epoch: 34 meanloss: 0.17
+Validation:
+epoch: 34, numImages: 576 testloss: 0.27 mmae: 0.0466 fbeta: 0.7551 iou: 0.6158
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 35 ii: 44 trainloss: 0.16 timecost:1577.52 secs
+epoch: 35 ii: 94 trainloss: 0.17 timecost:1585.77 secs
+epoch: 35 meanloss: 0.17
+Validation:
+epoch: 35, numImages: 576 testloss: 0.27 mmae: 0.0488 fbeta: 0.7543 iou: 0.6096
+epoch: 36 ii: 1 trainloss: 0.18 timecost:1612.23 secs
+epoch: 36 ii: 51 trainloss: 0.16 timecost:1621.01 secs
+epoch: 36 ii: 101 trainloss: 0.17 timecost:1629.72 secs
+epoch: 36 meanloss: 0.16
+Validation:
+epoch: 36, numImages: 576 testloss: 0.27 mmae: 0.0467 fbeta: 0.7564 iou: 0.6121
+epoch: 37 ii: 8 trainloss: 0.16 timecost:1657.01 secs
+epoch: 37 ii: 58 trainloss: 0.16 timecost:1665.45 secs
+epoch: 37 ii: 108 trainloss: 0.16 timecost:1674.24 secs
+epoch: 37 meanloss: 0.16
+Validation:
+epoch: 37, numImages: 576 testloss: 0.28 mmae: 0.0473 fbeta: 0.7765 iou: 0.6052
+epoch: 38 ii: 15 trainloss: 0.15 timecost:1702.31 secs
+epoch: 38 ii: 65 trainloss: 0.16 timecost:1710.70 secs
+epoch: 38 ii: 115 trainloss: 0.15 timecost:1719.27 secs
+epoch: 38 meanloss: 0.16
+Validation:
+epoch: 38, numImages: 576 testloss: 0.27 mmae: 0.0466 fbeta: 0.7476 iou: 0.6179
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 39 ii: 22 trainloss: 0.16 timecost:1747.09 secs
+epoch: 39 ii: 72 trainloss: 0.16 timecost:1756.11 secs
+epoch: 39 ii: 122 trainloss: 0.15 timecost:1766.12 secs
+epoch: 39 meanloss: 0.16
+Validation:
+epoch: 39, numImages: 576 testloss: 0.29 mmae: 0.0478 fbeta: 0.7749 iou: 0.5926
+(poly lr policy) learning rate:  0.0025596489844146204
+epoch: 40 ii: 29 trainloss: 0.15 timecost:1793.14 secs
+epoch: 40 ii: 79 trainloss: 0.15 timecost:1801.61 secs
+epoch: 40 ii: 129 trainloss: 0.15 timecost:1810.32 secs
+epoch: 40 meanloss: 0.15
+Validation:
+epoch: 40, numImages: 576 testloss: 0.27 mmae: 0.0461 fbeta: 0.7581 iou: 0.6180
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 41 ii: 36 trainloss: 0.14 timecost:1838.19 secs
+epoch: 41 ii: 86 trainloss: 0.14 timecost:1846.55 secs
+epoch: 41 ii: 136 trainloss: 0.15 timecost:1855.24 secs
+epoch: 41 meanloss: 0.14
+Validation:
+epoch: 41, numImages: 576 testloss: 0.27 mmae: 0.0464 fbeta: 0.7740 iou: 0.6153
+epoch: 42 ii: 43 trainloss: 0.14 timecost:1882.05 secs
+epoch: 42 ii: 93 trainloss: 0.14 timecost:1890.53 secs
+epoch: 42 meanloss: 0.14
+Validation:
+epoch: 42, numImages: 576 testloss: 0.27 mmae: 0.0468 fbeta: 0.7649 iou: 0.6154
+epoch: 43 ii: 0 trainloss: 0.14 timecost:1917.48 secs
+epoch: 43 ii: 50 trainloss: 0.14 timecost:1926.06 secs
+epoch: 43 ii: 100 trainloss: 0.13 timecost:1934.52 secs
+epoch: 43 meanloss: 0.14
+Validation:
+epoch: 43, numImages: 576 testloss: 0.26 mmae: 0.0461 fbeta: 0.7611 iou: 0.6196
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 44 ii: 7 trainloss: 0.14 timecost:1962.18 secs
+epoch: 44 ii: 57 trainloss: 0.13 timecost:1970.63 secs
+epoch: 44 ii: 107 trainloss: 0.14 timecost:1978.74 secs
+epoch: 44 meanloss: 0.13
+Validation:
+epoch: 44, numImages: 576 testloss: 0.27 mmae: 0.0462 fbeta: 0.7610 iou: 0.6174
+epoch: 45 ii: 14 trainloss: 0.13 timecost:2006.45 secs
+epoch: 45 ii: 64 trainloss: 0.13 timecost:2015.09 secs
+epoch: 45 ii: 114 trainloss: 0.13 timecost:2023.47 secs
+epoch: 45 meanloss: 0.13
+Validation:
+epoch: 45, numImages: 576 testloss: 0.27 mmae: 0.0459 fbeta: 0.7767 iou: 0.6140
+epoch: 46 ii: 21 trainloss: 0.13 timecost:2048.89 secs
+epoch: 46 ii: 71 trainloss: 0.12 timecost:2057.26 secs
+epoch: 46 ii: 121 trainloss: 0.14 timecost:2065.56 secs
+epoch: 46 meanloss: 0.13
+Validation:
+epoch: 46, numImages: 576 testloss: 0.27 mmae: 0.0469 fbeta: 0.7748 iou: 0.6081
+epoch: 47 ii: 28 trainloss: 0.13 timecost:2091.88 secs
+epoch: 47 ii: 78 trainloss: 0.13 timecost:2101.11 secs
+epoch: 47 ii: 128 trainloss: 0.13 timecost:2110.24 secs
+epoch: 47 meanloss: 0.13
+Validation:
+epoch: 47, numImages: 576 testloss: 0.28 mmae: 0.0468 fbeta: 0.7804 iou: 0.6065
+epoch: 48 ii: 35 trainloss: 0.13 timecost:2136.16 secs
+epoch: 48 ii: 85 trainloss: 0.12 timecost:2144.91 secs
+epoch: 48 ii: 135 trainloss: 0.12 timecost:2153.22 secs
+epoch: 48 meanloss: 0.12
+Validation:
+epoch: 48, numImages: 576 testloss: 0.26 mmae: 0.0456 fbeta: 0.7658 iou: 0.6219
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/unet/fold2/unet_best.pth
+
+epoch: 49 ii: 42 trainloss: 0.12 timecost:2180.41 secs
+epoch: 49 ii: 92 trainloss: 0.12 timecost:2189.11 secs
+epoch: 49 ii: 142 trainloss: 0.13 timecost:2197.85 secs
+epoch: 49 meanloss: 0.12
+Validation:
+epoch: 49, numImages: 576 testloss: 0.27 mmae: 0.0468 fbeta: 0.7798 iou: 0.6081
+(poly lr policy) learning rate:  0.000295751527325663

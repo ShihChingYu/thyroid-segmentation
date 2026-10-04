@@ -1,0 +1,160 @@
+===== fold 0  at=input  Sun Oct  4 03:16:15 UTC 2026 =====
+note: 614 prediction(s) had no ground truth in data/tn3k/test-mask
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=results/test-TN3K/unet/fold0
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7809  sd_across_cases=0.2256  median=0.8668  iqr=[0.730, 0.927]
+  iou   n=614   mean=0.6842  sd_across_cases=0.2410  median=0.7650  iqr=[0.574, 0.863]
+  hd95  n=606   mean=24.7443  sd_across_cases=26.8547  median=13.3030  iqr=[6.325, 33.292]   (8 undefined)
+  aggregate  dice=0.8509  iou=0.7405   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/06_score_run008_fold0_at-input.csv
+wrote /workspace/amy/notes/06_score_run008_fold0_at-input.csv.meta
+===== fold 1  at=input  Sun Oct  4 03:16:22 UTC 2026 =====
+note: 614 prediction(s) had no ground truth in data/tn3k/test-mask
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=results/test-TN3K/unet/fold1
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7928  sd_across_cases=0.2052  median=0.8659  iqr=[0.741, 0.923]
+  iou   n=614   mean=0.6940  sd_across_cases=0.2241  median=0.7635  iqr=[0.588, 0.856]
+  hd95  n=605   mean=23.8887  sd_across_cases=26.1518  median=12.9339  iqr=[5.906, 33.262]   (9 undefined)
+  aggregate  dice=0.8445  iou=0.7308   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/06_score_run008_fold1_at-input.csv
+wrote /workspace/amy/notes/06_score_run008_fold1_at-input.csv.meta
+===== fold 2  at=input  Sun Oct  4 03:16:29 UTC 2026 =====
+note: 614 prediction(s) had no ground truth in data/tn3k/test-mask
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=results/test-TN3K/unet/fold2
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7753  sd_across_cases=0.2255  median=0.8652  iqr=[0.725, 0.922]
+  iou   n=614   mean=0.6764  sd_across_cases=0.2402  median=0.7624  iqr=[0.568, 0.854]
+  hd95  n=603   mean=24.7386  sd_across_cases=28.2428  median=12.1324  iqr=[5.636, 34.782]   (11 undefined)
+  aggregate  dice=0.8413  iou=0.7261   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/06_score_run008_fold2_at-input.csv
+wrote /workspace/amy/notes/06_score_run008_fold2_at-input.csv.meta
+===== fold 3  at=input  Sun Oct  4 03:16:36 UTC 2026 =====
+note: 614 prediction(s) had no ground truth in data/tn3k/test-mask
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=results/test-TN3K/unet/fold3
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7783  sd_across_cases=0.2214  median=0.8667  iqr=[0.719, 0.924]
+  iou   n=614   mean=0.6796  sd_across_cases=0.2388  median=0.7647  iqr=[0.562, 0.859]
+  hd95  n=608   mean=28.0997  sd_across_cases=29.2320  median=15.2643  iqr=[6.370, 41.064]   (6 undefined)
+  aggregate  dice=0.8432  iou=0.7288   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/06_score_run008_fold3_at-input.csv
+wrote /workspace/amy/notes/06_score_run008_fold3_at-input.csv.meta
+===== fold 4  at=input  Sun Oct  4 03:16:43 UTC 2026 =====
+note: 614 prediction(s) had no ground truth in data/tn3k/test-mask
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=results/test-TN3K/unet/fold4
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7787  sd_across_cases=0.2309  median=0.8660  iqr=[0.729, 0.927]
+  iou   n=614   mean=0.6829  sd_across_cases=0.2447  median=0.7637  iqr=[0.574, 0.865]
+  hd95  n=601   mean=26.1880  sd_across_cases=29.5273  median=13.8924  iqr=[6.000, 36.051]   (13 undefined)
+  aggregate  dice=0.8446  iou=0.7310   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/06_score_run008_fold4_at-input.csv
+wrote /workspace/amy/notes/06_score_run008_fold4_at-input.csv.meta
+===== fold 0  at=original  Sun Oct  4 03:16:50 UTC 2026 =====
+note: 614 prediction(s) had no ground truth in data/tn3k/test-mask
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=original  empty=exclude
+  pred=results/test-TN3K/unet/fold0
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7808  sd_across_cases=0.2255  median=0.8679  iqr=[0.730, 0.926]
+  iou   n=614   mean=0.6841  sd_across_cases=0.2408  median=0.7667  iqr=[0.574, 0.863]
+  hd95  n=607   mean=56.5634  sd_across_cases=69.3586  median=27.9499  iqr=[12.602, 75.370]   (7 undefined)
+  aggregate  dice=0.8525  iou=0.7430   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/06_score_run008_fold0_at-original.csv
+wrote /workspace/amy/notes/06_score_run008_fold0_at-original.csv.meta
+===== fold 1  at=original  Sun Oct  4 03:18:24 UTC 2026 =====
+note: 614 prediction(s) had no ground truth in data/tn3k/test-mask
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=original  empty=exclude
+  pred=results/test-TN3K/unet/fold1
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7924  sd_across_cases=0.2052  median=0.8661  iqr=[0.740, 0.922]
+  iou   n=614   mean=0.6935  sd_across_cases=0.2240  median=0.7638  iqr=[0.588, 0.855]
+  hd95  n=606   mean=54.5387  sd_across_cases=68.4547  median=28.5708  iqr=[11.662, 69.195]   (8 undefined)
+  aggregate  dice=0.8477  iou=0.7356   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/06_score_run008_fold1_at-original.csv
+wrote /workspace/amy/notes/06_score_run008_fold1_at-original.csv.meta
+===== fold 2  at=original  Sun Oct  4 03:19:56 UTC 2026 =====
+note: 614 prediction(s) had no ground truth in data/tn3k/test-mask
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=original  empty=exclude
+  pred=results/test-TN3K/unet/fold2
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7752  sd_across_cases=0.2253  median=0.8674  iqr=[0.727, 0.922]
+  iou   n=614   mean=0.6762  sd_across_cases=0.2400  median=0.7659  iqr=[0.571, 0.856]
+  hd95  n=603   mean=57.2448  sd_across_cases=74.6933  median=27.4591  iqr=[11.000, 70.205]   (11 undefined)
+  aggregate  dice=0.8446  iou=0.7309   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/06_score_run008_fold2_at-original.csv
+wrote /workspace/amy/notes/06_score_run008_fold2_at-original.csv.meta
+===== fold 3  at=original  Sun Oct  4 03:20:30 UTC 2026 =====
+note: 614 prediction(s) had no ground truth in data/tn3k/test-mask
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=original  empty=exclude
+  pred=results/test-TN3K/unet/fold3
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7782  sd_across_cases=0.2213  median=0.8664  iqr=[0.719, 0.923]
+  iou   n=614   mean=0.6793  sd_across_cases=0.2387  median=0.7643  iqr=[0.561, 0.857]
+  hd95  n=609   mean=63.1959  sd_across_cases=72.8592  median=35.5455  iqr=[13.000, 92.747]   (5 undefined)
+  aggregate  dice=0.8444  iou=0.7308   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/06_score_run008_fold3_at-original.csv
+wrote /workspace/amy/notes/06_score_run008_fold3_at-original.csv.meta
+===== fold 4  at=original  Sun Oct  4 03:20:52 UTC 2026 =====
+note: 614 prediction(s) had no ground truth in data/tn3k/test-mask
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=original  empty=exclude
+  pred=results/test-TN3K/unet/fold4
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7787  sd_across_cases=0.2308  median=0.8657  iqr=[0.728, 0.928]
+  iou   n=614   mean=0.6828  sd_across_cases=0.2445  median=0.7632  iqr=[0.573, 0.866]
+  hd95  n=602   mean=58.1913  sd_across_cases=71.7539  median=29.6357  iqr=[12.094, 78.819]   (12 undefined)
+  aggregate  dice=0.8464  iou=0.7337   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/06_score_run008_fold4_at-original.csv
+wrote /workspace/amy/notes/06_score_run008_fold4_at-original.csv.meta

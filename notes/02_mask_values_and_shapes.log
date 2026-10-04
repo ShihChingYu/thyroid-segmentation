@@ -1,0 +1,38 @@
+tn3k trainval: n=2879  distinct_resolutions=2443
+   values  low=[0, 1, 2, 3, 4]  high=[251, 252, 253, 254, 255]
+   masks with midtones (50-200): 0/2879 (0%)
+   most common resolutions:
+      (336, 411)  x10
+      (330, 411)  x8
+      (333, 411)  x7
+      (335, 411)  x7
+      (332, 411)  x6
+
+tn3k test: n=614  distinct_resolutions=555
+   values  low=[0, 1, 2, 3, 4]  high=[251, 252, 253, 254, 255]
+   masks with midtones (50-200): 0/614 (0%)
+   most common resolutions:
+      (389, 417)  x4
+      (387, 417)  x4
+      (378, 466)  x4
+      (379, 466)  x3
+      (357, 400)  x3
+
+tg3k: n=3585  distinct_resolutions=15
+   values  low=[0, 1, 2, 3, 4]  high=[251, 252, 253, 254, 255]
+   masks with midtones (50-200): 3341/3585 (93%)
+   most common resolutions:
+      (207, 281)  x329
+      (178, 234)  x316
+      (238, 251)  x315
+      (191, 265)  x272
+      (213, 241)  x261
+
+ddti: NOT FOUND
+
+Binary ground truth would show values [0, 255] only. Values at 1-4 and
+251-254 are JPEG ringing; a binarization threshold (>127) is required
+and is recorded as a harness parameter. Midtones indicate genuinely soft
+boundaries, where the threshold choice changes the ground truth.
+Few distinct resolutions relative to file count indicates frames drawn
+from a small number of source videos (see check 03).

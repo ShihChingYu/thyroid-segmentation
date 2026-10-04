@@ -1,0 +1,70 @@
+
+fold 0, 614 cases at 224x224  (8 with an empty prediction)
+
+  ours (boundary pixels)    mean= 24.744  median= 13.303
+  repo (all foreground)     mean= 18.116  median=  6.708
+  ratio ours/repo           1.366
+  repo <= ours in           98.8% of cases
+
+  worst 5 by our HD95:
+    0354   ours=  147.84   repo=  144.28
+    0136   ours=  146.99   repo=  145.34
+    0245   ours=  145.79   repo=  141.75
+    0005   ours=  139.23   repo=  140.72
+    0352   ours=  135.30   repo=  131.32
+
+fold 1, 614 cases at 224x224  (9 with an empty prediction)
+
+  ours (boundary pixels)    mean= 23.889  median= 12.934
+  repo (all foreground)     mean= 16.829  median=  6.000
+  ratio ours/repo           1.419
+  repo <= ours in           98.7% of cases
+
+  worst 5 by our HD95:
+    0279   ours=  183.71   repo=  179.88
+    0136   ours=  149.36   repo=  146.59
+    0053   ours=  130.07   repo=  120.10
+    0268   ours=  125.00   repo=  121.00
+    0352   ours=  124.29   repo=  119.86
+
+fold 2, 614 cases at 224x224  (11 with an empty prediction)
+
+  ours (boundary pixels)    mean= 24.739  median= 12.132
+  repo (all foreground)     mean= 18.296  median=  5.735
+  ratio ours/repo           1.352
+  repo <= ours in           98.7% of cases
+
+  worst 5 by our HD95:
+    0279   ours=  187.14   repo=  183.00
+    0600   ours=  168.71   repo=  167.06
+    0136   ours=  144.11   repo=  141.99
+    0354   ours=  144.07   repo=  146.06
+    0352   ours=  139.64   repo=  135.72
+
+fold 3, 614 cases at 224x224  (6 with an empty prediction)
+
+  ours (boundary pixels)    mean= 28.100  median= 15.264
+  repo (all foreground)     mean= 20.327  median=  6.403
+  ratio ours/repo           1.382
+  repo <= ours in           98.7% of cases
+
+  worst 5 by our HD95:
+    0268   ours=  160.01   repo=  157.02
+    0354   ours=  149.94   repo=  144.39
+    0245   ours=  136.31   repo=    1.41
+    0352   ours=  135.15   repo=  123.42
+    0053   ours=  133.93   repo=  121.59
+
+fold 4, 614 cases at 224x224  (13 with an empty prediction)
+
+  ours (boundary pixels)    mean= 26.188  median= 13.892
+  repo (all foreground)     mean= 19.136  median=  6.000
+  ratio ours/repo           1.369
+  repo <= ours in           98.7% of cases
+
+  worst 5 by our HD95:
+    0279   ours=  186.29   repo=  182.01
+    0600   ours=  156.37   repo=  158.00
+    0268   ours=  152.15   repo=  149.76
+    0354   ours=  150.64   repo=  151.26
+    0005   ours=  139.21   repo=  136.51

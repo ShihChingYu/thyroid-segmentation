@@ -1,0 +1,9 @@
+
+n = 614 cases at 224x224
+
+A  PERFECT model (pred == ground truth)   expect 1.0, 1.0, 0.0
+   dice min=1.000000   iou min=1.000000   hd95 max=0.000000
+   cases not exactly 1.0: 0
+
+B  NULL model (all zeros)                 expect 0.0, undefined
+   dice max=0.000000   hd95 defined in 0 cases

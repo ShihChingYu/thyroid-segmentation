@@ -1,0 +1,11 @@
+5 fold files, keys = ['val', 'train']
+
+fold 0: train=2303 val=576 total=2879 train_int_val=0
+fold 1: train=2303 val=576 total=2879 train_int_val=0
+fold 2: train=2303 val=576 total=2879 train_int_val=0
+fold 3: train=2303 val=576 total=2879 train_int_val=0
+fold 4: train=2304 val=575 total=2879 train_int_val=0
+
+union of val sets : 2879  (expect 2879)
+images in 2 folds : 0  (expect 0)
+fold 0 val head   : [0, 5, 10, 15, 20, 25]  (stride 5 => assignment is index %% 5, not grouped)

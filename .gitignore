@@ -1,0 +1,10 @@
+repos/
+data/
+results/
+*.pth
+*.pt
+*.zip
+*.png
+__pycache__/
+.ipynb_checkpoints/
+venv/

@@ -1,0 +1,22 @@
+A. 15 constant-resolution runs for 3585 frames (paper: 16 source videos)
+
+B. shipped split: train=3226 (0-3225) val=359 (3226-3584)
+
+C. video membership:
+   video  1  (191, 265)       0-271   train=272   val=0    
+   video  2  (194, 258)     272-448   train=177   val=0    
+   video  3  (187, 241)     449-655   train=207   val=0    
+   video  4  (174, 241)     656-826   train=171   val=0    
+   video  5  (182, 270)     827-1017  train=191   val=0    
+   video  6  (209, 214)    1018-1196  train=179   val=0    
+   video  7  (178, 234)    1197-1512  train=316   val=0    
+   video  8  (209, 216)    1513-1691  train=179   val=0    
+   video  9  (213, 241)    1692-1952  train=261   val=0    
+   video 10  (191, 278)    1953-2188  train=236   val=0    
+   video 11  (194, 242)    2189-2445  train=257   val=0    
+   video 12  (204, 240)    2446-2696  train=251   val=0    
+   video 13  (207, 281)    2697-3025  train=329   val=0    
+   video 14  (193, 325)    3026-3269  train=200   val=44     <-- STRADDLES
+   video 15  (238, 251)    3270-3584  train=0     val=315  
+
+   leaked val frames: 44/359 = 12.3%
