@@ -1,0 +1,16 @@
+hashing...
+  trainval 2879   test 614   tg3k 3585
+
+Q1  TN3K trainval vs test   (1,767,706 pairs)
+    min distance per test image: median=16.0 min=8 p5=12.0
+    pairs with distance <= 5: 0
+
+Q2  TN3K trainval, adjacent indices vs random pairs
+    adjacent (i, i+1): median=30.0  frac <= 5: 0.10%
+    random pairs     : median=30.0  frac <= 5: 0.00%
+
+Q3  TG3K vs TN3K test   (2,201,190 pairs)
+    min distance overall: 10
+    pairs with distance <= 5: 0
+
+wrote /workspace/amy/notes/10_duplicate_pairs.csv  (0 flagged pairs)

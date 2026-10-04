@@ -269,13 +269,37 @@ boundary-extraction fault.
 
 ---
 
+## 10 — Near-duplicate scan across splits
+**Question:** Does TN3K's trainval/test split leak? Are patients grouped in
+index order? Do TG3K and TN3K test share acquisitions?
+
+**Command:** `python checks/10_duplicate_scan.py | tee notes/10_*.log`
+**Method:** 63-bit DCT perceptual hash on the images, Hamming distance,
+near-duplicate threshold 5. Unrelated images differ in ~31.5 bits.
+
+**Result:**
+  Q1  TN3K trainval vs test, 1,767,706 pairs: 0 under threshold. Minimum
+      distance per test image median 16, overall min 8, p5 12.
+  Q2  Adjacent indices (i, i+1) median 30; random pairs median 30. No excess
+      similarity between neighbouring indices.
+  Q3  TG3K vs TN3K test, 2,201,190 pairs: 0 under threshold, min 10.
+
+**Implication:** TN3K's patient-level split is corroborated. The `index % 5`
+fold assignment noted in check 04 is patient-safe, because the index order is
+already shuffled - that open item is closed. The TG3K/TN3K overlap risk for
+W4 multi-task training is bounded.
+
+**Limitation:** Perceptual hashing detects visually near-identical frames.
+Different sweeps of the same patient may hash far apart, so a clean result
+bounds the risk rather than proving absence of shared patients. Patient
+identifiers are not released and cannot be checked directly.
+
 ## Open items
 
 | Item | Why it matters |
 |---|---|
 | Per-case Dice runs +1.8 points above `eval.py` on identical masks | Our side is validated (check 09); the cause is in `eval.py`'s data loading. Candidates: ground-truth resize interpolation, batch-level aggregation. A curiosity, not a blocker. |
 | DDTI not located | Blocks cross-dataset evaluation, which is the preview of device shift. |
-| Duplicate scan not run | The only available check on TN3K's patient-level claim, on whether `index % 5` folds are patient-safe, and on TN3K ↔ TG3K patient overlap. |
 | `dataloaders/tg3k.py` hardcodes the leaky split | Silently loads the wrong split in W4 unless changed. |
 | Fold 3 case 0245: HD95 136 at Dice 0.94 | Likely a small component buried inside the gland — correct Hausdorff behaviour, and an argument for filtering before measuring. Worth one look. |
 MDEOF
