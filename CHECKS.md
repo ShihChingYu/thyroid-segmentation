@@ -1,4 +1,3 @@
-cat > /workspace/amy/CHECKS.md << 'MDEOF'
 # Checks and results log
 
 ## Status — Sprint 1 Week 3
@@ -14,7 +13,7 @@ cat > /workspace/amy/CHECKS.md << 'MDEOF'
 | 7 | Empty-mask convention | done — `--empty {exclude,one,zero}`, default `exclude`, validated in check 09 |
 | 8 | Validate with ground-truth and all-zero dummy models | done — check 09 |
 | 9 | Re-score week 2's model | done — check 06 |
-| 10 | Automated duplicate scan across splits | **outstanding** |
+| 10 | Automated duplicate scan across splits | done — check 10 |
 | 11 | Configure the N-class head | deferred to W4 — prerequisite for multi-task, not a W3 deliverable |
 
 ---
@@ -302,4 +301,3 @@ identifiers are not released and cannot be checked directly.
 | DDTI not located | Blocks cross-dataset evaluation, which is the preview of device shift. |
 | `dataloaders/tg3k.py` hardcodes the leaky split | Silently loads the wrong split in W4 unless changed. |
 | Fold 3 case 0245: HD95 136 at Dice 0.94 | Likely a small component buried inside the gland — correct Hausdorff behaviour, and an argument for filtering before measuring. Worth one look. |
-MDEOF
